@@ -82,5 +82,6 @@ if __name__ == "__main__":
     try:
         item = c.dqueue()
         print(item, c)
+        
     except ValueError:
         print("estaba vacia")
